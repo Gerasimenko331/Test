@@ -26,8 +26,8 @@
 }
 
 .text {
-    font-family: Inter, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: 'Inter-Regular';
+    font-size: 12px;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
@@ -40,7 +40,7 @@
 }
 
 .rectangle-checklist {
-    width: 76px;
+    width: 56px;
     height: 18px;
     margin-top: 12px;
     margin-left: 98px;
@@ -57,7 +57,7 @@
 .text-checklist {
     width: 50px;
     height: 18px;
-    font: Inter, Arial, Helvetica, sans-serif;
+    font-family: 'Inter-Regular';
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
@@ -66,7 +66,7 @@
 }
 
 .text-completion {
-    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-family: 'Inter-Regular';
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
@@ -81,7 +81,7 @@
 .text-act {
     top: 58px;
     left: 98px;
-    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-family: 'Inter-Regular';
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
@@ -99,10 +99,16 @@
     gap: 10px;
     border-radius: 6px;
     background: #F4F8FF;
-    font-family: Inter, Arial, Helvetica, sans-serif; /* Используем стандартный шрифт Arial для надписи */
-    font-size: 14px; /* Размер текста кнопки */
-    text-align: center; /* Выравниваем текст по центру */
-    color: #4777ED; /* Цвет текста кнопки */
-    border: none; /* Убираем границу кнопки */
-    cursor: pointer; /* Изменяем курсор при наведении */
+    font-family: 'Inter-Regular'; 
+    font-size: 14px; 
+    text-align: center; 
+    color: #4777ED; 
+    border: none; 
+    cursor: pointer; 
 }
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('./Inter/static/Inter-Regular.ttf');
+  }
+  

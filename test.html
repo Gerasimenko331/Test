@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тест</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="blue-rectangle">
+      <div class="progress-circle">
+        <svg viewbox="0 0 36 36">
+          <circle
+            cx="18"
+            cy="18"
+            r="18"
+            stroke="#FFFFFF"
+            fill="none"
+            stroke-width="2"
+            stroke-dasharray="calc(var(--progressPercent) * 113.097 / (2 * 18)) 1000"
+            stroke-dashoffset="0"
+            stroke-linecap="round"
+          />
+          <text
+            x="18"
+            y="20"
+            class="text"
+            alignment-baseline="middle"
+            transform="rotate(90 19 19)"
+          >
+            0/7
+          </text>
+        </svg>
+      </div>
+      <div class="rectangle-checklist">
+        <div class="text-checklist">Чеклист</div>
+      </div>
+      <div class="text-completion">Выполнено: 0 из 7 действий</div>
+      <div class="text-act">
+        Следующее действие: Созвониться с клиентом до 23.05.24 12:00
+      </div>
+      <button class="custom-button">Открыть чеклист</button>
+    </div>
+  </body>
+</html>
