@@ -1,0 +1,108 @@
+:root {
+      --progressPercent: 14%; /* Устанавливаем переменную для процента */
+    }
+
+   .blue-rectangle {
+    width: 743px;
+    height: 91px;
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #3579F5;
+    border-radius: 10px;
+}
+
+.progress-circle {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 16px;
+    left: 22px;
+    border: 1px solid;
+    border-color: #FFFFFF;
+    border-radius: 50%;
+    transform: rotate(-90deg); 
+}
+
+.text {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    fill: #FFFFFF;
+    text-anchor: middle;
+    width: 32px;
+    height: 30px;
+    margin-top: 31px;
+    margin-left: 36px;
+}
+
+.rectangle-checklist {
+    width: 76px;
+    height: 18px;
+    margin-top: 12px;
+    margin-left: 98px;
+    padding: 0px 10px 0px 10px;
+    gap: 10px;
+    border-radius: 40px;
+    background: #2364DB;
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.text-checklist {
+    width: 50px;
+    height: 18px;
+    font: Inter, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text-completion {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    height: 20px;
+    color: #FFFFFF;
+    position: absolute; 
+    top: 34px;
+    left: 98px; 
+}
+
+.text-act {
+    top: 58px;
+    left: 98px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute; 
+}
+
+.custom-button {
+    width: 170px;
+    height: 40px;
+    position: fixed;
+    top: 26px;
+    left: 555px;
+    gap: 10px;
+    border-radius: 6px;
+    background: #F4F8FF;
+    font-family: Inter, Arial, Helvetica, sans-serif; /* Используем стандартный шрифт Arial для надписи */
+    font-size: 14px; /* Размер текста кнопки */
+    text-align: center; /* Выравниваем текст по центру */
+    color: #4777ED; /* Цвет текста кнопки */
+    border: none; /* Убираем границу кнопки */
+    cursor: pointer; /* Изменяем курсор при наведении */
+}
